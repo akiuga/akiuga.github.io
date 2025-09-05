@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+}
+
+/****************   Nav Section **********************/
+nav {
+	display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  color: gray;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  color: gray;
+  padding: .5rem 1em;
+  gap: 1rem;
+}
+
+/*********** Splash Page ************************/
+header {
+  background-color: #ffdc5b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+  padding-bottom: 1em;
+  padding-top: 0;
+}
+
+header h1 {
+  font-family: "Space Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ab92b3;
+}
+
+header img {
+  border: 2px solid #96c8a2;
+  border-radius: 1em;
+}
+
+.address {
+ font-size: 1.2rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+}
+
+/************* Sections ********************/
+hr {
+  border: dashed 1px #ff7e47;
+}
+
+section h3 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ab92b3;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section ul {
+  list-style-type: square;
+}
+
+section a {
+  text-decoration: none;
+  color: gray;
+}
+
+section a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+.card img {
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  box-shadow: 1em .5em 1em .5em;
+  justify-content: center;
+  align-items: center;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1em;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+input {
+  border-radius: .5em;
+  background-color: #96c8a2;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-size: 1em;
+}
+
+textarea {
+  border-radius: .5em;
+  background-color: #96c8a2;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-size: 1em;
+}
