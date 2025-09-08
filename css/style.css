@@ -75,7 +75,7 @@ hr {
 section h3 {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   color: #ab92b3;
 }
@@ -104,19 +104,21 @@ section a:hover {
 	display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2em;
+  margin: 1em 1em;
 }
 
 .card img {
-
+  height: 200px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   background-color: lightgray;
-  box-shadow: 1em .5em 1em .5em;
+  box-shadow: gray 1em .5em 1em .5em;
   justify-content: center;
   align-items: center;
+  border-radius: 1em;
 }
 
 /**************   Responsiveness   *****************/
