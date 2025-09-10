@@ -60,11 +60,12 @@ header img {
 }
 
 .address {
- font-size: 1.2rem;
+ font-size: 1.1rem;
+ font-style: italic;
 }
 
 .tagline {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 /************* Sections ********************/
@@ -140,6 +141,7 @@ section a:hover {
   flex-direction: column;
   align-items: center;
   gap: .5em;
+  margin: 1em;
 }
 
 input {
@@ -147,7 +149,7 @@ input {
   background-color: #96c8a2;
   color: white;
   font-family: "Space Mono", monospace;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 textarea {
@@ -155,5 +157,12 @@ textarea {
   background-color: #96c8a2;
   color: white;
   font-family: "Space Mono", monospace;
-  font-size: 1em;
+  font-size: 1.2em;
+  height: 250px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 1.1em;
 }
